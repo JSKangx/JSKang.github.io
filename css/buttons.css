@@ -1,0 +1,35 @@
+.buttons {
+  display: flex;
+  margin: 35px 0;
+  justify-content: center;
+}
+
+.buttons span {
+  width: 120px;
+  height: 40px;
+  margin: 0 10px;
+  border-radius: 25px;
+}
+
+.buttons span:first-child {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons span:last-child {
+  background-color: white;
+  box-shadow: 0 0 7px rgba(155, 165, 232, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray);
+  font-weight: 600;
+}
+
+.buttons i {
+  color: red;
+  margin-right: 7px;
+}

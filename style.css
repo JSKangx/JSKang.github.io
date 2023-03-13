@@ -1,0 +1,40 @@
+/* screen */
+@import "css/reset.css";
+
+/* components */
+@import "css/header.css";
+@import "css/musician.css";
+@import "css/buttons.css";
+@import "css/song-list.css";
+@import "css/play-bar.css";
+
+/* variables  */
+@import "css/variables.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 860px;
+  padding: 40px 20px;
+  font-family: "Concert One", cursive;
+  font-family: "Nunito", sans-serif;
+}
+
+.screen {
+  background-color: white;
+  width: 50%;
+  height: 100%;
+  margin: 0 30px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 0 40px rgba(78, 51, 91, 0.15);
+  padding: 0 15px;
+}
+
+img {
+  object-fit: cover;
+}
